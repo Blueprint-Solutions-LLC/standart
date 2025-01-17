@@ -6,23 +6,14 @@
 - Хувьсагч, функц, обьект болон файлуудын нэрийг өгөхдөө утга учиртай, тодорхой илэрхийлэл ашиглах.
 - Тогтмол нэршлийн дүрмийг мөрдөх:  
   - Хувьсагч: `camelCase`
-  - Функц: `snake_case`
+  - Функц: `camelCase`
   - Обьект: `PascalCase`
 
 ### 2. Коммент болон тайлбар:
 - Комментыг бичихдээ юу хийдэг болон яагаад хэрэгтэйг тайлбарлах.
 - Бүх обьект болон функцуудад толгой оруулах:
   ```javascript
-  /** 
-   * Fetches user details by ID from the API. 
-   * 
-   * Author: John Doe 
-   * Date: January 16, 2025 
-   * 
-   * @param {string} userId - The ID of the user to fetch. 
-   * @returns {Observable<User>} - An Observable containing the user details. 
-   * @throws {Error} - Throws an error if the request fails. 
-   */
+  // Fetches user details by ID from the API. 
   ```
 
 ### 3. Алдааг тодорхойлох:
