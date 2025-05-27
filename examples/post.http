@@ -1,0 +1,29 @@
+### Get all posts
+GET http://localhost:3000/api/v1/posts
+Accept: application/json
+
+### Get a single post
+GET http://localhost:3000/api/v1/posts/1
+Accept: application/json
+
+### Create a new post
+POST http://localhost:3000/api/v1/posts
+Content-Type: application/json
+
+{
+  "title": "Hello World",
+  "content": "This is my first post",
+  "userId": 1
+}
+
+### Update a post
+PUT http://localhost:3000/api/v1/posts/1
+Content-Type: application/json
+
+{
+  "title": "Updated Title",
+  "content": "Updated content"
+}
+
+### Delete a post
+DELETE http://localhost:3000/api/v1/posts/1
